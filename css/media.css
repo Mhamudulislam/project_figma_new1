@@ -1,0 +1,276 @@
+/* Extra_smale_screen */
+@media(max-width: 575.98px) 
+{
+/* header_start */
+.header_icon_border 
+{margin: 0 auto; padding: 30px 0;}
+.search_inp 
+{margin: 0 auto;}
+.regis_log 
+{font-size: 12px;}
+.btn_class1 
+{margin: 0 7px 0 -27px; padding: 0;}
+.btn_class2 
+{padding: 7px 23px;}
+/* header_start */
+/* Start_shopping_at_home_start */
+.background_logo
+{text-align: center;}
+.background_content
+{margin-top: 0; text-align: center;}
+.background_content h1 
+{font-size: 37px; margin: 0;}
+.background_content h2 
+{margin: 20px 0; font-size: 18px;}
+.background_content input 
+{padding: 0 24px 0 0;}
+.background_content button 
+{padding: 6px 10px; height: 33px;}
+.border_input 
+{padding: 5px 0;}
+/* Start_shopping_at_home_end */
+/* Daily_Fresh_Products_start */
+.daily_image
+{text-align: center;}
+.daily_content
+{text-align: center;}
+.daily_content h1 
+{margin: 0; font-size: 29px;}
+.daily_content p 
+{margin: 20px 0 0; font-size: 18px;}
+/* Daily_Fresh_Products_end */
+/* product_start */
+.product_buttons button 
+{margin: 12px 80px 0; padding: 1px;}
+.product_image 
+{margin: 90px;}
+.content_p1 
+{width: 100px; margin: 162px 0 0 150px !important;}
+.content_p1_reting
+{width: 100px; margin: -18px 0 0 250px !important;}
+.content_p2
+{width: 100px; margin: 0 0 0 154px !important;}
+.content_p3 
+{width: 100px; margin: 2px 0 0 154px !important;}
+.p1_margen
+{margin: 8px 65px 0 0 !important;}
+/* product_end */
+/* Best_Products_start */
+.Best_Products 
+{height: 405px;}
+.best_product_content 
+{margin: 0; padding: 100px 0 0;}
+.best_product_content h2
+{font-size: 32px;}
+.best_product_content h1
+{font-size: 50px;}
+.best_product_content p
+{font-size: 14px;}
+/* Best_Products_end */
+}
+
+
+
+/* Smale_screen */
+@media(min-width: 576px) and (max-width: 767.98px) 
+{
+/* header_start */
+.header_icon_border 
+{margin: 0 auto; padding: 30px 0;}
+/* header_start */
+/* Start_shopping_at_home_start */
+.background_logo
+{text-align: center;}
+.background_content
+{margin-top: 0; text-align: center;}
+.background_content h1 
+{font-size: 56px; margin: 0;}
+.background_content input 
+{padding: 0 110px 0 0;}
+.background_content button 
+{padding: 17px 50px;}
+.border_input 
+{padding: 16px 0;}
+/* Start_shopping_at_home_end */
+/* Daily_Fresh_Products_start */
+.daily_image
+{text-align: center;}
+.daily_content
+{text-align: center;}
+.daily_content h1 
+{margin: 0; font-size: 52px;}
+.daily_content p 
+{margin: 20px 20px 0; font-size: 24px;}
+/* Daily_Fresh_Products_end */
+/* product_start */
+.product_buttons button 
+{margin: 0 5px; padding: 10px 6px;}
+.product_image 
+{margin: 16px;}
+.content_p1 
+{width: 100px; margin: 162px 0 0 150px !important;}
+.content_p1_reting
+{width: 100px; margin: -18px 0 0 250px !important;}
+.content_p2
+{width: 100px; margin: 0 0 0 154px !important;}
+.content_p3 
+{width: 100px; margin: 2px 0 0 154px !important;}
+.p1_margen
+{margin: 8px 65px 0 0 !important;}
+/* product_end */
+/* Best_Products_start */
+.Best_Products 
+{height: 500px;}
+.best_product_content 
+{margin: 0; padding: 100px 0 0;}
+/* Best_Products_end */
+}
+
+
+
+
+/* mediam_screen */
+@media(min-width: 768px) and (max-width: 991.98px) 
+{
+/* header_start */
+.header_icon_border 
+{margin: 0 158px;}
+/* header_start */
+/* Start_shopping_at_home_start */
+.background_logo
+{text-align: center;}
+.background_content
+{margin-top: 0; text-align: center;}
+.background_content h1 
+{font-size: 56px; margin: 0;}
+.background_content input 
+{padding: 0 110px 0 0;}
+.background_content button 
+{padding: 17px 50px;}
+.border_input 
+{padding: 16px 0;}
+/* Start_shopping_at_home_end */
+/* Daily_Fresh_Products_start */
+.daily_image
+{text-align: center;}
+.daily_content
+{text-align: center;}
+.daily_content h1 
+{margin: 0; font-size: 56px;}
+.daily_content p 
+{margin: 20px 10px 0; font-size: 24px;}
+/* Daily_Fresh_Products_end */
+/* product_start */
+.product_buttons button 
+{margin: 0 10px; padding: 10px 20px;}
+.product_image 
+{margin: 60px;}
+.content_p1 
+{width: 100px; margin: 162px 0 0 150px !important;}
+.content_p1_reting
+{width: 100px; margin: -18px 0 0 250px !important;}
+.content_p2
+{width: 100px; margin: 0 0 0 154px !important;}
+.content_p3 
+{width: 100px; margin: 2px 0 0 154px !important;}
+.p1_margen
+{margin: 8px 65px 0 0 !important;}
+/* product_end */
+/* Best_Products_start */
+.Best_Products 
+{height: 500px;}
+.best_product_content 
+{margin: 0 0 0 60px; padding: 100px 0 0;}
+/* Best_Products_end */
+}
+
+
+
+
+
+/* larg_screen */
+@media(min-width: 992px) and (max-width: 1199.98px) 
+{
+/* Start_shopping_at_home_start */
+.background_content
+{margin-top: -50px;}
+.background_content h1 
+{font-size: 56px;}
+.border_input 
+{padding: 12px 0;}
+.border_input input 
+{padding: 0 38px 0 0;}
+.background_content button 
+{height: 48px; padding: 4px 40px;}
+/* Start_shopping_at_home_end */
+/* Daily_Fresh_Products_start */
+.daily_image
+{text-align: center;}
+.daily_content p 
+{margin: 20px 0px 0;}
+/* Daily_Fresh_Products_end */
+/* product_start */
+.product_buttons button 
+{margin: 0 39px;}
+.product_image
+{margin: 0;}
+.content_p1 
+{width: 100px; margin: 162px 0 0 150px !important;}
+.content_p1_reting
+{width: 100px; margin: -18px 0 0 250px !important;}
+.content_p2
+{width: 100px; margin: 0 0 0 154px !important;}
+.content_p3 
+{width: 100px; margin: 2px 0 0 154px !important;}
+.p1_margen
+{margin: 8px 45px 0 0 !important;}
+/* product_end */
+/* Best_Products_start */
+.Best_Products 
+{height: 500px;}
+.best_product_content 
+{margin: 0 465px 0 60px; padding: 100px 0 0;}
+/* Best_Products_end */
+}
+
+
+
+
+
+/* Extra_larg_screen */
+@media(min-width: 1200px) and (max-width: 1399.98px) 
+{
+/* header_start */
+/* header_end */
+
+/* Start_shopping_at_home_start */
+.background_content h1 
+{font-size: 58px;}
+.border_input 
+{padding: 16px 13px;}
+.background_content button 
+{padding: 18px 19px; height: 57px;}
+/* Start_shopping_at_home_end */
+/* product_start */
+.content_p1 
+{width: 100px; margin: 162px 0 0 150px !important;}
+.content_p1_reting
+{width: 100px; margin: -18px 0 0 250px !important;}
+.content_p2
+{width: 100px; margin: 0 0 0 154px !important;}
+.content_p3 
+{width: 100px; margin: 2px 0 0 154px !important;}
+.p1_margen
+{margin: 8px 45px 0 0 !important;}
+/* product_end */
+/* Best_Products_start */
+.Best_Products 
+{height: 500px;}
+.best_product_content 
+{margin: 0 527px 0 60px; padding: 100px 0 0;}
+/* Best_Products_end */
+}
+
+
+/* Extra_Extra_larg_screen */
+@media(min-width: 1400px) {}

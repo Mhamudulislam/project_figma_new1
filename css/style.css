@@ -1,0 +1,235 @@
+body
+{}
+
+
+
+
+/* header_start */
+.search_inp
+{}
+.search_inp input
+{border: none; outline: 0; background: rgba(49, 182, 93, 0.25);;}
+.search_inp i
+{padding: 5px; font-size: 16px; background: #31B65D;;}
+.header_icon_border
+{}
+.img_icon
+{display: inline}
+.img_icon img
+{}
+.images_1
+{padding: 10px; }
+.images_2
+{padding: 10px; }
+.images_3
+{padding: 10px; }
+.images_4
+{transform: translate(-41px, 0px);}
+.regis_log
+{display: inline}
+.regis_log button
+{}
+.btn_class1
+{margin: 0 10px;}
+.btn_class2
+{padding: 7px 27px; background-color: #267533; border: none}
+/* header_end */
+
+/* banner1_start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+margin:0;
+}
+
+h1 {
+font-family: 'Lato', sans-serif;
+font-weight:300;
+letter-spacing: 2px;
+font-size:48px;
+}
+p {
+font-family: 'Lato', sans-serif;
+letter-spacing: 1px;
+font-size:14px;
+color: #333333;
+}
+
+.header {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(../png/food_pakege.png);
+}
+.logo {
+width:50px;
+fill:white;
+padding-right:15px;
+display:inline-block;
+vertical-align: middle;
+}
+
+.inner-header {
+height:65vh;
+width:100%;
+margin: 0;
+padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+    height: 800px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+.waves {
+position:relative;
+width: 100%;
+height:15vh;
+margin-bottom:-7px; /*Fix for safari gap*/
+min-height:100px;
+max-height:150px;
+}
+
+.content {
+position:relative;
+height:20vh;
+text-align:center;
+background-color: white;
+}
+
+/* Animation */
+.ut
+{color: rgb(161, 223, 248);}
+.parallax > use {
+animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+animation-delay: -2s;
+animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+animation-delay: -3s;
+animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+animation-delay: -4s;
+animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+animation-delay: -5s;
+animation-duration: 20s;
+}
+@keyframes move-forever {
+0% {
+transform: translate3d(-90px,0,0);
+}
+100% { 
+transform: translate3d(85px,0,0);
+}
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+.waves {
+height:40px;
+min-height:40px;
+}
+.content {
+height:30vh;
+}
+h1 
+{font-size:24px;}
+}
+/* banner1_end */
+
+/* Start_shopping_at_home_start */
+.for_margin
+{margin-top: 100px;}
+.banner2
+{background-image: url(../png/background_banner.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.background_logo
+{}
+.background_logo img
+{}
+.margin_content
+{margin-top: 100px;}
+.background_content
+{}
+.background_content h1
+{color: #267533; text-shadow: 2px 4px 6px rgba(51, 51, 51, 0.25); font-weight: 500; font-family: 'Inter', sans-serif; font-size: 70px;}
+.background_content h2
+{margin: 40px 0; color: #000; font-family: 'Inter', sans-serif; font-size: 24px; font-weight: 300; line-height: normal;}
+.border_input
+{border: 1px solid; padding: 16px 16px; background-color: white; display: inline;}
+.border_input input
+{border: none; padding: 0 130px 0 0; background: none; outline: 0; font-family: 'Inter', sans-serif;}
+.background_content button
+{height: 55px; padding: 17px 36px; color: white; background-color: #267533; border: none; font-family: 'Inter', sans-serif;}
+/* Start_shopping_at_home_end */
+
+/* Daily_Fresh_Products_start */
+.daily_content
+{}
+.daily_content h1
+{margin-top: 100px; color: #267533; text-shadow: 2px 4px 6px rgba(51, 51, 51, 0.25); font-weight: 500; font-family: 'Inter', sans-serif; font-size: 70px;}
+.daily_content p
+{margin: 20px 150px 0; color: #A5A5A5; font-weight: 500; font-family: 'Inter', sans-serif; font-size: 24px;}
+/* Daily_Fresh_Products_end */
+
+/* product_start */
+.product_margin
+{margin-top: 50px;}
+.product
+{}
+.product_buttons
+{}
+.product_buttons button
+{margin: 0 50px; padding: 12px 25px; font-family: 'Inter', sans-serif; border-radius: 2px; border: 4px solid #267533; box-shadow: 0px 5px 6px 0px #267533;}
+.product_img_back_border
+{width: 212px; height: 330px; border-radius: 10px; box-shadow: 4px -4px 12px 0px rgba(0, 0, 0, 0.25) inset;}
+.offar_page
+{margin: -180px 0 0 -140px;}
+.offar_page img
+{}
+.product_image
+{margin: 50px;}
+.product_image p
+{margin: -30px 0 0 14px; font-size: 15px; color: white;}
+.content_p1
+{margin: 162px -60px 0 0 !important; font-family: 'Inter', sans-serif; font-size: 12px !important; color: black !important;}
+.content_p1_reting
+{margin: -18px -244px 0 0 !important; font-family: 'Inter', sans-serif; font-size: 12px !important; color: black !important;}
+.content_p2
+{margin: 12px -60px 0 0 !important; font-family: 'Inter', sans-serif; font-size: 18px !important; font-weight: 700; color: black !important;}
+.content_p3
+{margin: 2px -60px 0 0 !important; font-family: 'Inter', sans-serif; font-size: 14px !important; color: black !important;}
+.p1_margen
+{margin: 8px 45px 0 0 !important; display: inline; font-family: 'Inter', sans-serif; font-size: 15px !important; color: black !important;}
+.content_p4
+{margin: 0 -158px 0 0 !important; display: inline; font-family: 'Inter', sans-serif; font-size: 15px !important; color: black !important;}
+.product_img img
+{}
+.product button
+{padding: 12px 20px; text-decoration: none; border-radius: 20px; background: #31B65D; box-shadow: 0px 5px 6px 0px #267533;}
+.product_view_button
+{color: #FFF; font-size: 24px; font-weight: 500; line-height: normal; text-decoration-line: underline;}
+/* product_end */
+
+/* Best_Products_start */
+.Best_Products
+{background-color: #267533; height: 660px; padding-top: 45px;}
+.back_Best_Products_img
+{background-image: url(../image/best_product_img.png); background-position: center; background-repeat: no-repeat; background-size: cover;}
+.best_product_content
+{margin: 0 1110px 0 165px; padding: 100px 0 144px;}
+.best_product_content h2
+{color: #A17F44; font-family: 'Inter', sans-serif; font-size: 48px;}
+.best_product_content h1
+{color: #A17F44; font-family: 'Inter', sans-serif; font-size: 70px;}
+.best_product_content p
+{color: #D4A162; font-family: 'Inter', sans-serif; font-size: 24px;}
+/* Best_Products_end */
